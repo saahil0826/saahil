@@ -75,13 +75,13 @@ img {
 }
 
 
-.logo{
+.paren{
   display: flex;
   margin: auto;
   flex-direction: column;
 }
 
-.logo img{
+.paren img{
   height: 25px;
   width: 25px;
   margin-bottom: -10px;
