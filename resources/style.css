@@ -55,7 +55,7 @@ text-align: center;
   flex-wrap:wrap;
 }
 
-img {
+.col img {
   padding-bottom: 30px;
 }
 
@@ -135,6 +135,7 @@ img:nth-child(8) {
   }
 }
 
+
 .paren{
   display: flex;
   margin: auto;
@@ -148,12 +149,11 @@ img:nth-child(8) {
 }
 
 
-
 .fadep {
    opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+   transition: opacity .50s ease-in-out;
+   -moz-transition: opacity .50s ease-in-out;
+   -webkit-transition: opacity .50s ease-in-out;
    }
    .fadep:hover {
       opacity: 0.5; /* TODO: fade everything but active */
